@@ -1,7 +1,7 @@
 # xboot
 
 **DISCLAIMER:**
-This repository acts as a public reference to the [Sylus AI](https://github.com/apps/sylus-ai)
+This repository acts as a public reference for [Sylus AI](https://github.com/apps/sylus-ai) to develop our internal services.
 
 **xboot** is a full-stack Java application framework built around annotation-driven service composition, multi-protocol networking, and a Python-scriptable web/API layer. It provides the scaffolding to build everything from lightweight TCP services to full server-rendered web applications — with very little boilerplate.
 
