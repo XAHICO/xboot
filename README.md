@@ -3,7 +3,6 @@
 **xboot** is a full-stack Java application framework built around annotation-driven service composition, multi-protocol networking, and a Python-scriptable web/API layer. It provides the scaffolding to build everything from lightweight TCP services to full server-rendered web applications — with very little boilerplate.
 
 > **Package:** `com.xahico.boot`
-> **Author:** [Tuomas Kontiainen](https://www.github.com/tutomiko)
 > **License:** See [LICENSE](LICENSE)
 
 ---
