@@ -1,0 +1,30 @@
+/*
+ * Written by Tuomas Kontiainen <https://www.github.com/tutomiko>
+ * 
+ * Copyright (c) 2023, Tuomas Kontiainen
+ */
+package com.xahico.boot.net.sock.model.bare;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Inherited;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+import com.xahico.boot.pilot.ServiceType;
+
+/**
+ * TBD.
+ * 
+ * @author Tuomas Kontiainen
+**/
+@Inherited
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
+@ServiceType(BAREListeningProvider.class)
+public @interface BAREListener {
+	boolean autoReconnect () default true;
+	
+	int autoReconnectInterval () default 10000;
+	
+	String host () default "";
+}
